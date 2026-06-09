@@ -22,9 +22,7 @@ A classificação deve ocorrer localmente no ESP32, sem depender de processament
 
 ---
 
-# Alinhamento com a ODS 11
-
-## ODS 11 – Cidades e Comunidades Sustentáveis
+## Cidades e Comunidades Sustentáveis
 
 O projeto contribui para a criação de habitats resilientes e seguros em ambientes extremos, promovendo:
 
