@@ -325,6 +325,18 @@ RISCO DE DESPRESSURIZACAO!
 
 ---
 
+# EQUIPE
+
+| INTEGRANTE | RM  |
+| ----------- | ------- |
+| MARCELO VIEIRA DE MELO | 552953  |
+| ERICK MOLINA | 553852  |
+| FELIPE CASTRO SALAZAR | 553464 |
+| RAYARA AMARO FIGUEIREDO | 552635 |
+| VICTOR RODRIGUES | 554158 |
+
+---
+
 # Conclusão
 
 O SafeSpace demonstra a aplicação de TinyML em sistemas embarcados para monitoramento de habitats extremos. A solução realiza classificação local em tempo real utilizando um ESP32, reduzindo dependência de infraestrutura externa e aumentando a confiabilidade operacional em cenários críticos como colônias lunares e marcianas.
