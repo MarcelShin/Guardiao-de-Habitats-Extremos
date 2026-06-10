@@ -85,7 +85,7 @@ O potenciômetro foi utilizado para representar diferentes níveis de pressão a
 As leituras foram obtidas através da função:
 
 ```cpp
-analogRead(GPIO34)
+analogRead(GPIO35)
 ```
 
 gerando valores entre:
