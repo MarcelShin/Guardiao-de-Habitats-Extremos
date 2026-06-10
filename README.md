@@ -245,7 +245,7 @@ Ao acessar o endereço IP do ESP32, o usuário visualiza:
 
 # Estados Operacionais
 
-## Seguro
+## Crítico
 
 Condição:
 
@@ -256,7 +256,7 @@ ADC <= 1300
 Mensagem:
 
 ```text
-Habitat operando normalmente.
+RISCO DE DESPRESSURIZACAO!
 ```
 
 ---
@@ -277,7 +277,7 @@ Verificar pressao do habitat.
 
 ---
 
-## Crítico
+## Seguro
 
 Condição:
 
@@ -288,7 +288,7 @@ ADC > 2700
 Mensagem:
 
 ```text
-RISCO DE DESPRESSURIZACAO!
+Habitat operando normalmente.
 ```
 
 ---
@@ -308,9 +308,9 @@ RISCO DE DESPRESSURIZACAO!
 
 | Leitura ADC | Estado  |
 | ----------- | ------- |
-| 0 – 1300    | Seguro  |
+| 0 – 1300    | Crítico  |
 | 1301 – 2700 | Alerta  |
-| 2701 – 4095 | Crítico |
+| 2701 – 4095 | Seguro |
 
 ---
 
