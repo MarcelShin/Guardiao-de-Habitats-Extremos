@@ -98,7 +98,7 @@ gerando valores entre:
 
 ## Classes Definidas
 
-### Seguro
+### Crítico
 
 Faixa:
 
@@ -106,7 +106,7 @@ Faixa:
 0 - 1300
 ```
 
-Representa pressão dentro dos níveis aceitáveis.
+Representa risco elevado de falha atmosférica ou despressurização.
 
 ---
 
@@ -122,7 +122,7 @@ Representa uma possível anomalia que exige monitoramento.
 
 ---
 
-### Crítico
+### Seguro
 
 Faixa:
 
@@ -130,7 +130,7 @@ Faixa:
 2701 - 4095
 ```
 
-Representa risco elevado de falha atmosférica ou despressurização.
+Representa pressão dentro dos níveis aceitáveis.
 
 ---
 
@@ -204,17 +204,17 @@ Em vez de exportar a biblioteca completa do Edge Impulse, as regras aprendidas f
 Exemplo:
 
 ```cpp
-if (leituraADC <= 1300)
-{
-    estado = "Seguro";
-}
-else if (leituraADC <= 2700)
-{
-    estado = "Alerta";
-}
-else
-{
-    estado = "Critico";
+String classificar(int leituraADC) {
+
+  if (leituraADC <= 1300) {
+    return "Critico";
+  }
+
+  if (leituraADC <= 2700) {
+    return "Alerta";
+  }
+
+  return "Seguro";
 }
 ```
 
